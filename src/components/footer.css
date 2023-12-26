@@ -1,0 +1,70 @@
+.footerBox {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3A3A3A;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBox {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+.rightBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 80px;
+    margin-top: 50px;
+    max-width: 400px;
+}
+
+.github {
+    height: 22px;
+    width: 22px;
+    margin-right: 50px;
+}
+
+.discord {
+    height: 19px;
+    width: 25px;
+    margin-right: 50px;
+}
+
+.twitter {
+    height: 20px;
+    width: 24px;
+    margin-right: 50px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.Logo {
+    height: 60px;
+    width: 230px;
+    margin-left: 0px;
+}
+
+.slogan,
+.copyright {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.nav-item {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}

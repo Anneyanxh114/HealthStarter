@@ -1,0 +1,234 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+
+.header-divider {
+    margin-top: -6px;
+}
+
+.Banner {
+    width: 100%
+}
+
+.statsTitle {
+    color: #858585;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+.statsRed {
+    color: #ED4949;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.statsGreen {
+    color: #8ADA88;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.stats {
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.subTitle {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#centeredCategories {
+    margin-top: 60px;
+    margin-bottom: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Title {
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+
+.categoryImg {
+    height: 100px;
+    width: 100px;
+}
+
+.categoryImg1 {
+    height: 90px;
+    width: 90px;
+}
+
+.categoryImg2 {
+    height: 90px;
+    width: 60px;
+}
+
+.categoryTitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.categoryDetail {
+    font-size: 20px;
+    font-weight: 400;
+    color: #858585;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoryBox {
+    display: flex;
+    width: 263px;
+    height: 263px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.categoryLine1,
+.categoryLine2 {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.regForm {
+    margin-left: 120px;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.campaign-card {
+    width: 354px;
+    height: 522px;
+    border-radius: 20px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: 60px
+}
+
+.CampaignImage {
+    width: 354px;
+    height: 222px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.campaign-details {
+    padding: 20px;
+}
+
+.campaign-title {
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.campaign-button {
+    padding: 10px 20px;
+    background-color: #ed4949;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.categoryTag {
+    width: 127px;
+    height: 30px;
+    background-color: #666666;
+    color: #cccccc;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.like {
+    width: 26px;
+    height: 26px
+}
+
+.button-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.data {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dataType {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.percentage {
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+}
+
+.seeMore {
+    width: 206px;
+    height: 37px;
+    background-color: #F85951;
+    color: #cccccc;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.seeMoreBtn {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.topPicks,
+.allCampaigns {
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}

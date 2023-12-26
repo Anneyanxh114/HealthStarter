@@ -1,0 +1,64 @@
+.Logo {
+    margin-left: -25px;
+    height: 60px;
+    width: 230px;
+}
+
+.horizontal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: #ffffff;
+}
+
+.horizontal-nav-list {
+    margin-left: -180px;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.horizontal-nav-list li {
+    margin-right: 40px;
+
+}
+
+.horizontal-nav-list li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.horizontal-nav-list li .downArrow {
+    margin-left: 2px;
+    margin-top: 5px;
+    height: 14px;
+    width: 14px;
+}
+
+.horizontal-nav-list .categories {
+    display: flex;
+}
+
+.connectWallet {
+    height: 40px;
+    width: 170px;
+    margin-right: -10px;
+    margin-left: 30px
+}
+
+.startCampaign {
+    height: 40px;
+    width: 170px;
+}
+
+.search {
+    margin-left: 2px;
+    margin-top: 5px;
+    height: 14px;
+    width: 14px;
+}
